@@ -1,0 +1,19 @@
+/var/spool/slurmd/job11633376/slurm_script: line 29: 3045582 Floating point exception(core dumped) $PYBIN train_bioanchor.py --cancer_type BRCA --batch_size 32 --cluster_number 5 --epochs 200 --lambda_bio $LAMBDA --model_path save/model_bioanchor_lambda${LAMBDA}
+evaluate_clustering.py:18: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(model_path, map_location=device)
+Traceback (most recent call last):
+  File "evaluate_clustering.py", line 172, in <module>
+    model = load_model(args.model_path, args.feature_dim, cluster_num, device)
+  File "evaluate_clustering.py", line 18, in load_model
+    checkpoint = torch.load(model_path, map_location=device)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/serialization.py", line 1065, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/serialization.py", line 468, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/serialization.py", line 449, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'save/model_bioanchor_lambda0.1/checkpoint_190.tar'
+mv: cannot stat 'results/BRCA_evaluation.csv': No such file or directory
+mv: cannot stat 'results/BRCA_confusion_matrix.png': No such file or directory
+mv: cannot stat 'results/BRCA_cluster_distribution.png': No such file or directory
+mv: cannot stat 'results/BRCA_tsne.png': No such file or directory

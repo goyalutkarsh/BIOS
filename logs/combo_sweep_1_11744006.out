@@ -1,0 +1,108 @@
+==============================
+Running: 3base | dim=3
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 3 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3base.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3base.csv: torch.Size([1031, 3])
+Cluster number: None
+--- MLP 3base RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 3 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3base.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3base.csv: torch.Size([1031, 3])
+Cluster number: None
+--- Linear 3base RESULTS ---
+==============================
+Running: 3plus_PI3K | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_PI3K_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_PI3K_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_PI3K RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_PI3K_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_PI3K_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_PI3K RESULTS ---
+==============================
+Running: 3plus_p53 | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_p53_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_p53_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_p53 RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_p53_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_p53_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_p53 RESULTS ---
+==============================
+Running: 3plus_MYC | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_MYC_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_MYC_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_MYC RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_MYC_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_MYC_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_MYC RESULTS ---
+==============================
+Running: 3plus_MAPK | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_MAPK_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_MAPK_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_MAPK RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_MAPK_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_MAPK_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_MAPK RESULTS ---
+==============================
+Running: 3plus_WNT | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_WNT_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_WNT_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_WNT RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_WNT_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_WNT_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_WNT RESULTS ---
+==============================
+Running: 3plus_hypoxia | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_hypoxia_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_hypoxia_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_hypoxia RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_hypoxia_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_hypoxia_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_hypoxia RESULTS ---
+==============================
+SWEEP 1 COMPLETE
+==============================

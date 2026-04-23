@@ -1,0 +1,294 @@
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 95, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 75, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 95, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 75, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 95, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 75, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 95, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 75, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 95, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 75, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 95, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 75, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 95, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 75, in <module>
+    DL = get_feature(args.cancer_type, args.batch_size, True,
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 25, in get_feature
+    fea_CN    = pd.read_csv(f'{base}/CN.fea',    header=0, index_col=0, sep=',')
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../subtype_file/fea/None/CN.fea'
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument

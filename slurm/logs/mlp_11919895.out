@@ -1,0 +1,14 @@
+=== Bio-Anchor Head: mlp ===
+Job started at: Mon Apr 20 00:30:19 EDT 2026
+Running on node: hpc-d34-3-1.local
+Job ID: 11919895
+Training completed at: Mon Apr 20 00:30:39 EDT 2026
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from data/ground_truth/ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_bioanchor_mlp_14dim_200ep/checkpoint_200.tar...
+=== mlp complete ===
+Job finished at: Mon Apr 20 00:30:55 EDT 2026

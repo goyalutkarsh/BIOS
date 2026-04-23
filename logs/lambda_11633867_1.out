@@ -1,0 +1,13 @@
+=== Testing lambda_bio = 0.2 ===
+Tue Feb 10 16:37:39 EST 2026
+Loaded bio-anchors: torch.Size([1031, 15])
+5
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_bioanchor_lambda0.2/checkpoint_190.tar...
+=== Completed lambda=0.2 ===
+Tue Feb 10 16:38:23 EST 2026

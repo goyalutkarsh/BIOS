@@ -1,0 +1,12 @@
+Job started at: Thu Feb  5 14:00:28 EST 2026
+Running on node: hpc-m35-5-1.local
+Job ID: 11621682
+Training completed at: Thu Feb  5 14:01:06 EST 2026
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_baseline/checkpoint_50.tar...
+Job finished at: Thu Feb  5 14:01:10 EST 2026

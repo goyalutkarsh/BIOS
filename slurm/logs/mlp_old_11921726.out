@@ -1,0 +1,12 @@
+=== OLD arch + MLP Bio Head ===
+Job started at: Mon Apr 20 12:56:41 EDT 2026
+Running on node: hpc-m36-6-3.local
+Job ID: 11921726
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: data/bio_anchors/bio_anchors_BRCA_combo_3plus_apoptosis_score.csv
+[dataloader] Loaded bio-anchors from data/bio_anchors/bio_anchors_BRCA_combo_3plus_apoptosis_score.csv: torch.Size([1031, 4])
+Cluster number: 5
+Training completed at: Mon Apr 20 12:57:16 EDT 2026
+=== OLD arch + MLP complete ===
+Job finished at: Mon Apr 20 12:57:22 EDT 2026

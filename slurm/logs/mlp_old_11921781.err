@@ -1,0 +1,11 @@
+/var/spool/slurmd/job11921781/slurm_script: line 32: 2974315 Floating point exception(core dumped) $PYBIN scripts/train/train_bioanchor_mlp_OLD.py --cancer_type BRCA --batch_size 64 --cluster_number 5 --epochs 200 --lambda_bio 0.1 --bio_dim 4 --bio_hidden_dim 64 --bio_anchor_file data/bio_anchors/bio_anchors_BRCA_combo_3plus_apoptosis_score.csv --model_path save/model_mlp_old
+ls: cannot access 'save/model_mlp_old/checkpoint_*.tar': No such file or directory
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE] --model_path
+                              MODEL_PATH [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+                              [--cluster_number CLUSTER_NUMBER]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+mv: cannot stat 'results/BRCA_evaluation.csv': No such file or directory
+mv: cannot stat 'results/BRCA_confusion_matrix.png': No such file or directory
+mv: cannot stat 'results/BRCA_cluster_distribution.png': No such file or directory
+mv: cannot stat 'results/BRCA_tsne.png': No such file or directory

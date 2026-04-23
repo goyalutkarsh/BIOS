@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "train_bioanchor_3dim.py", line 9, in <module>
+    from dataloader import get_feature
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 38
+    bio_anchor_file = bio_anchor_file_15d
+    ^
+IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "evaluate_clustering.py", line 10, in <module>
+    from dataloader import get_feature
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/dataloader.py", line 38
+    bio_anchor_file = bio_anchor_file_15d
+    ^
+IndentationError: expected an indented block
+mv: cannot stat 'results/BRCA_evaluation.csv': No such file or directory
+mv: cannot stat 'results/BRCA_confusion_matrix.png': No such file or directory
+mv: cannot stat 'results/BRCA_cluster_distribution.png': No such file or directory
+mv: cannot stat 'results/BRCA_tsne.png': No such file or directory

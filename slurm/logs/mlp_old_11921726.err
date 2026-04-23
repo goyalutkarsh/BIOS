@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "scripts/train/train_bioanchor_mlp_OLD.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+TypeError: __init__() missing 3 required positional arguments: 'bio_dim', 'n_anchors', and 'head_type'
+ls: cannot access 'save/model_mlp_old/checkpoint_*.tar': No such file or directory
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE] --model_path
+                              MODEL_PATH [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+                              [--cluster_number CLUSTER_NUMBER]
+evaluate_clustering.py: error: argument --model_path: expected one argument

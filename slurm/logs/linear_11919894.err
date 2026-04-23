@@ -1,0 +1,11 @@
+/gpfs/home/ug25b/.conda/envs/bios/bin/python: can't open file 'train_bioanchor.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "scripts/evaluate/evaluate_clustering.py", line 172, in <module>
+    model = load_model(args.model_path, args.feature_dim, cluster_num, device)
+  File "scripts/evaluate/evaluate_clustering.py", line 16, in load_model
+    model = network.Network(ae, feature_dim, cluster_num)
+NameError: name 'network' is not defined
+mv: cannot stat 'results/BRCA_evaluation.csv': No such file or directory
+mv: cannot stat 'results/BRCA_confusion_matrix.png': No such file or directory
+mv: cannot stat 'results/BRCA_cluster_distribution.png': No such file or directory
+mv: cannot stat 'results/BRCA_tsne.png': No such file or directory

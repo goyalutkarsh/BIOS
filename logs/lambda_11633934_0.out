@@ -1,0 +1,446 @@
+=== Testing lambda_bio = 0.1 ===
+Tue Feb 10 16:41:41 EST 2026
+Loaded bio-anchors: torch.Size([1031, 15])
+5
+Epoch [0/200]	 Step [0/33]	 Loss: 6.4264	 Bio Loss: 1.0140
+Epoch [0/200] Loss: 209.95767307281494
+Epoch [1/200]	 Step [0/33]	 Loss: 6.3243	 Bio Loss: 0.8684
+Epoch [1/200] Loss: 207.7571897506714
+Epoch [2/200]	 Step [0/33]	 Loss: 6.1140	 Bio Loss: 0.9366
+Epoch [2/200] Loss: 204.106436252594
+Epoch [3/200]	 Step [0/33]	 Loss: 6.1431	 Bio Loss: 0.9981
+Epoch [3/200] Loss: 199.04684925079346
+Epoch [4/200]	 Step [0/33]	 Loss: 6.2935	 Bio Loss: 1.1135
+Epoch [4/200] Loss: 199.54591035842896
+Epoch [5/200]	 Step [0/33]	 Loss: 6.0608	 Bio Loss: 0.9714
+Epoch [5/200] Loss: 197.68211269378662
+Epoch [6/200]	 Step [0/33]	 Loss: 5.8219	 Bio Loss: 0.9835
+Epoch [6/200] Loss: 191.82143759727478
+Epoch [7/200]	 Step [0/33]	 Loss: 5.8810	 Bio Loss: 0.8795
+Epoch [7/200] Loss: 194.42559051513672
+Epoch [8/200]	 Step [0/33]	 Loss: 6.1349	 Bio Loss: 0.9039
+Epoch [8/200] Loss: 192.0677032470703
+Epoch [9/200]	 Step [0/33]	 Loss: 5.7427	 Bio Loss: 0.9402
+Epoch [9/200] Loss: 190.73906326293945
+Epoch [10/200]	 Step [0/33]	 Loss: 5.6500	 Bio Loss: 0.9177
+Epoch [10/200] Loss: 189.2771441936493
+Epoch [11/200]	 Step [0/33]	 Loss: 5.6920	 Bio Loss: 1.0539
+Epoch [11/200] Loss: 189.9635591506958
+Epoch [12/200]	 Step [0/33]	 Loss: 5.7497	 Bio Loss: 0.8736
+Epoch [12/200] Loss: 188.224750995636
+Epoch [13/200]	 Step [0/33]	 Loss: 5.6317	 Bio Loss: 0.9208
+Epoch [13/200] Loss: 189.54666376113892
+Epoch [14/200]	 Step [0/33]	 Loss: 6.0371	 Bio Loss: 0.9018
+Epoch [14/200] Loss: 186.66794395446777
+Epoch [15/200]	 Step [0/33]	 Loss: 5.6939	 Bio Loss: 0.9007
+Epoch [15/200] Loss: 185.95037078857422
+Epoch [16/200]	 Step [0/33]	 Loss: 6.0151	 Bio Loss: 0.9385
+Epoch [16/200] Loss: 188.79104328155518
+Epoch [17/200]	 Step [0/33]	 Loss: 5.6412	 Bio Loss: 0.9043
+Epoch [17/200] Loss: 184.86797857284546
+Epoch [18/200]	 Step [0/33]	 Loss: 5.7591	 Bio Loss: 0.8721
+Epoch [18/200] Loss: 185.91096305847168
+Epoch [19/200]	 Step [0/33]	 Loss: 5.7206	 Bio Loss: 0.9390
+Epoch [19/200] Loss: 185.9412715435028
+Epoch [20/200]	 Step [0/33]	 Loss: 5.5784	 Bio Loss: 0.8810
+Epoch [20/200] Loss: 182.78330850601196
+Epoch [21/200]	 Step [0/33]	 Loss: 5.7334	 Bio Loss: 1.0710
+Epoch [21/200] Loss: 183.4987063407898
+Epoch [22/200]	 Step [0/33]	 Loss: 5.4718	 Bio Loss: 1.2027
+Epoch [22/200] Loss: 184.946870803833
+Epoch [23/200]	 Step [0/33]	 Loss: 5.8181	 Bio Loss: 0.9792
+Epoch [23/200] Loss: 185.59577894210815
+Epoch [24/200]	 Step [0/33]	 Loss: 5.7004	 Bio Loss: 0.9350
+Epoch [24/200] Loss: 183.62141728401184
+Epoch [25/200]	 Step [0/33]	 Loss: 5.4436	 Bio Loss: 0.8823
+Epoch [25/200] Loss: 184.6049828529358
+Epoch [26/200]	 Step [0/33]	 Loss: 5.6966	 Bio Loss: 1.1007
+Epoch [26/200] Loss: 182.4446361064911
+Epoch [27/200]	 Step [0/33]	 Loss: 5.5531	 Bio Loss: 0.8616
+Epoch [27/200] Loss: 182.89657640457153
+Epoch [28/200]	 Step [0/33]	 Loss: 5.5741	 Bio Loss: 0.9471
+Epoch [28/200] Loss: 181.06551718711853
+Epoch [29/200]	 Step [0/33]	 Loss: 5.5704	 Bio Loss: 0.8527
+Epoch [29/200] Loss: 180.05515837669373
+Epoch [30/200]	 Step [0/33]	 Loss: 5.3443	 Bio Loss: 0.8953
+Epoch [30/200] Loss: 180.6968948841095
+Epoch [31/200]	 Step [0/33]	 Loss: 5.9832	 Bio Loss: 0.8614
+Epoch [31/200] Loss: 182.6603446006775
+Epoch [32/200]	 Step [0/33]	 Loss: 5.4478	 Bio Loss: 0.8453
+Epoch [32/200] Loss: 180.91027784347534
+Epoch [33/200]	 Step [0/33]	 Loss: 5.3622	 Bio Loss: 0.9309
+Epoch [33/200] Loss: 180.6341152191162
+Epoch [34/200]	 Step [0/33]	 Loss: 5.3415	 Bio Loss: 0.9368
+Epoch [34/200] Loss: 178.3729281425476
+Epoch [35/200]	 Step [0/33]	 Loss: 5.7270	 Bio Loss: 0.9215
+Epoch [35/200] Loss: 181.32680654525757
+Epoch [36/200]	 Step [0/33]	 Loss: 5.2501	 Bio Loss: 0.9267
+Epoch [36/200] Loss: 178.80449533462524
+Epoch [37/200]	 Step [0/33]	 Loss: 5.6545	 Bio Loss: 0.9592
+Epoch [37/200] Loss: 181.00359392166138
+Epoch [38/200]	 Step [0/33]	 Loss: 5.7309	 Bio Loss: 1.0294
+Epoch [38/200] Loss: 181.65454959869385
+Epoch [39/200]	 Step [0/33]	 Loss: 5.7941	 Bio Loss: 0.9826
+Epoch [39/200] Loss: 177.6956422328949
+Epoch [40/200]	 Step [0/33]	 Loss: 5.5680	 Bio Loss: 0.9240
+Epoch [40/200] Loss: 177.0602045059204
+Epoch [41/200]	 Step [0/33]	 Loss: 5.5117	 Bio Loss: 1.0490
+Epoch [41/200] Loss: 177.57584404945374
+Epoch [42/200]	 Step [0/33]	 Loss: 5.3596	 Bio Loss: 0.9651
+Epoch [42/200] Loss: 180.10646152496338
+Epoch [43/200]	 Step [0/33]	 Loss: 5.4519	 Bio Loss: 0.9981
+Epoch [43/200] Loss: 177.22509288787842
+Epoch [44/200]	 Step [0/33]	 Loss: 5.2015	 Bio Loss: 0.9133
+Epoch [44/200] Loss: 178.2580599784851
+Epoch [45/200]	 Step [0/33]	 Loss: 5.4960	 Bio Loss: 0.9095
+Epoch [45/200] Loss: 176.28338432312012
+Epoch [46/200]	 Step [0/33]	 Loss: 5.4888	 Bio Loss: 1.0562
+Epoch [46/200] Loss: 177.80504202842712
+Epoch [47/200]	 Step [0/33]	 Loss: 5.4374	 Bio Loss: 0.8877
+Epoch [47/200] Loss: 176.90002727508545
+Epoch [48/200]	 Step [0/33]	 Loss: 5.1539	 Bio Loss: 0.9621
+Epoch [48/200] Loss: 175.54563975334167
+Epoch [49/200]	 Step [0/33]	 Loss: 5.2682	 Bio Loss: 0.9141
+Epoch [49/200] Loss: 175.92129826545715
+Epoch [50/200]	 Step [0/33]	 Loss: 5.6112	 Bio Loss: 0.9194
+Epoch [50/200] Loss: 177.24250650405884
+Epoch [51/200]	 Step [0/33]	 Loss: 5.2977	 Bio Loss: 1.1078
+Epoch [51/200] Loss: 175.52409672737122
+Epoch [52/200]	 Step [0/33]	 Loss: 5.0641	 Bio Loss: 1.0235
+Epoch [52/200] Loss: 174.760910987854
+Epoch [53/200]	 Step [0/33]	 Loss: 5.0373	 Bio Loss: 0.8942
+Epoch [53/200] Loss: 173.0156786441803
+Epoch [54/200]	 Step [0/33]	 Loss: 5.5260	 Bio Loss: 0.9667
+Epoch [54/200] Loss: 174.35598230361938
+Epoch [55/200]	 Step [0/33]	 Loss: 5.1465	 Bio Loss: 0.9595
+Epoch [55/200] Loss: 172.46265816688538
+Epoch [56/200]	 Step [0/33]	 Loss: 5.6367	 Bio Loss: 1.0194
+Epoch [56/200] Loss: 172.17424368858337
+Epoch [57/200]	 Step [0/33]	 Loss: 5.4097	 Bio Loss: 0.9914
+Epoch [57/200] Loss: 171.86412620544434
+Epoch [58/200]	 Step [0/33]	 Loss: 5.3709	 Bio Loss: 0.8997
+Epoch [58/200] Loss: 176.00451946258545
+Epoch [59/200]	 Step [0/33]	 Loss: 4.9483	 Bio Loss: 0.8849
+Epoch [59/200] Loss: 171.6212797164917
+Epoch [60/200]	 Step [0/33]	 Loss: 5.2111	 Bio Loss: 0.8698
+Epoch [60/200] Loss: 172.24854469299316
+Epoch [61/200]	 Step [0/33]	 Loss: 5.6255	 Bio Loss: 1.0212
+Epoch [61/200] Loss: 172.0397653579712
+Epoch [62/200]	 Step [0/33]	 Loss: 5.3238	 Bio Loss: 1.0147
+Epoch [62/200] Loss: 173.34435892105103
+Epoch [63/200]	 Step [0/33]	 Loss: 5.2592	 Bio Loss: 0.8588
+Epoch [63/200] Loss: 173.1266589164734
+Epoch [64/200]	 Step [0/33]	 Loss: 5.3307	 Bio Loss: 0.8373
+Epoch [64/200] Loss: 173.521790266037
+Epoch [65/200]	 Step [0/33]	 Loss: 5.1280	 Bio Loss: 1.0419
+Epoch [65/200] Loss: 173.5993208885193
+Epoch [66/200]	 Step [0/33]	 Loss: 5.2237	 Bio Loss: 0.8736
+Epoch [66/200] Loss: 171.93053364753723
+Epoch [67/200]	 Step [0/33]	 Loss: 5.1921	 Bio Loss: 1.0914
+Epoch [67/200] Loss: 171.5606734752655
+Epoch [68/200]	 Step [0/33]	 Loss: 5.1829	 Bio Loss: 0.9543
+Epoch [68/200] Loss: 173.4454607963562
+Epoch [69/200]	 Step [0/33]	 Loss: 5.0843	 Bio Loss: 1.0172
+Epoch [69/200] Loss: 171.58671808242798
+Epoch [70/200]	 Step [0/33]	 Loss: 4.9691	 Bio Loss: 0.9877
+Epoch [70/200] Loss: 169.74021649360657
+Epoch [71/200]	 Step [0/33]	 Loss: 5.0144	 Bio Loss: 0.8048
+Epoch [71/200] Loss: 169.02841353416443
+Epoch [72/200]	 Step [0/33]	 Loss: 5.2581	 Bio Loss: 0.9408
+Epoch [72/200] Loss: 171.59010243415833
+Epoch [73/200]	 Step [0/33]	 Loss: 5.3969	 Bio Loss: 1.0158
+Epoch [73/200] Loss: 169.42802119255066
+Epoch [74/200]	 Step [0/33]	 Loss: 5.1776	 Bio Loss: 0.9129
+Epoch [74/200] Loss: 171.4509048461914
+Epoch [75/200]	 Step [0/33]	 Loss: 4.7859	 Bio Loss: 1.0372
+Epoch [75/200] Loss: 170.40400791168213
+Epoch [76/200]	 Step [0/33]	 Loss: 5.2289	 Bio Loss: 0.8704
+Epoch [76/200] Loss: 172.29429244995117
+Epoch [77/200]	 Step [0/33]	 Loss: 5.4110	 Bio Loss: 0.9450
+Epoch [77/200] Loss: 170.13906478881836
+Epoch [78/200]	 Step [0/33]	 Loss: 5.2429	 Bio Loss: 1.0009
+Epoch [78/200] Loss: 167.96664214134216
+Epoch [79/200]	 Step [0/33]	 Loss: 5.1805	 Bio Loss: 1.1012
+Epoch [79/200] Loss: 170.94478559494019
+Epoch [80/200]	 Step [0/33]	 Loss: 4.9433	 Bio Loss: 0.8220
+Epoch [80/200] Loss: 168.80998611450195
+Epoch [81/200]	 Step [0/33]	 Loss: 5.3967	 Bio Loss: 0.9242
+Epoch [81/200] Loss: 169.6857466697693
+Epoch [82/200]	 Step [0/33]	 Loss: 5.4081	 Bio Loss: 0.9143
+Epoch [82/200] Loss: 168.87592554092407
+Epoch [83/200]	 Step [0/33]	 Loss: 4.9588	 Bio Loss: 0.8713
+Epoch [83/200] Loss: 169.97061252593994
+Epoch [84/200]	 Step [0/33]	 Loss: 5.3141	 Bio Loss: 0.8676
+Epoch [84/200] Loss: 171.5506649017334
+Epoch [85/200]	 Step [0/33]	 Loss: 5.1017	 Bio Loss: 1.0498
+Epoch [85/200] Loss: 170.4586420059204
+Epoch [86/200]	 Step [0/33]	 Loss: 5.2114	 Bio Loss: 1.0072
+Epoch [86/200] Loss: 169.85543203353882
+Epoch [87/200]	 Step [0/33]	 Loss: 5.4510	 Bio Loss: 1.0222
+Epoch [87/200] Loss: 169.9057879447937
+Epoch [88/200]	 Step [0/33]	 Loss: 5.3873	 Bio Loss: 0.9364
+Epoch [88/200] Loss: 169.35882329940796
+Epoch [89/200]	 Step [0/33]	 Loss: 5.3399	 Bio Loss: 0.9561
+Epoch [89/200] Loss: 172.28329706192017
+Epoch [90/200]	 Step [0/33]	 Loss: 5.2601	 Bio Loss: 1.0522
+Epoch [90/200] Loss: 169.3171124458313
+Epoch [91/200]	 Step [0/33]	 Loss: 5.4534	 Bio Loss: 0.8632
+Epoch [91/200] Loss: 169.94404315948486
+Epoch [92/200]	 Step [0/33]	 Loss: 5.0118	 Bio Loss: 0.9316
+Epoch [92/200] Loss: 170.64009261131287
+Epoch [93/200]	 Step [0/33]	 Loss: 5.4307	 Bio Loss: 1.0534
+Epoch [93/200] Loss: 169.59899163246155
+Epoch [94/200]	 Step [0/33]	 Loss: 5.5558	 Bio Loss: 0.9260
+Epoch [94/200] Loss: 169.9891893863678
+Epoch [95/200]	 Step [0/33]	 Loss: 5.1686	 Bio Loss: 0.9925
+Epoch [95/200] Loss: 166.91447854042053
+Epoch [96/200]	 Step [0/33]	 Loss: 5.4129	 Bio Loss: 1.0265
+Epoch [96/200] Loss: 168.96347880363464
+Epoch [97/200]	 Step [0/33]	 Loss: 4.9990	 Bio Loss: 0.8846
+Epoch [97/200] Loss: 170.48530840873718
+Epoch [98/200]	 Step [0/33]	 Loss: 4.8966	 Bio Loss: 1.0084
+Epoch [98/200] Loss: 168.8031575679779
+Epoch [99/200]	 Step [0/33]	 Loss: 4.9101	 Bio Loss: 0.8741
+Epoch [99/200] Loss: 167.49732518196106
+Epoch [100/200]	 Step [0/33]	 Loss: 4.8960	 Bio Loss: 0.9507
+Epoch [100/200] Loss: 168.7537980079651
+Epoch [101/200]	 Step [0/33]	 Loss: 5.0960	 Bio Loss: 0.8899
+Epoch [101/200] Loss: 169.13555335998535
+Epoch [102/200]	 Step [0/33]	 Loss: 5.2897	 Bio Loss: 0.9164
+Epoch [102/200] Loss: 167.1818242073059
+Epoch [103/200]	 Step [0/33]	 Loss: 5.1188	 Bio Loss: 0.9515
+Epoch [103/200] Loss: 170.17668914794922
+Epoch [104/200]	 Step [0/33]	 Loss: 5.0980	 Bio Loss: 0.9929
+Epoch [104/200] Loss: 170.34498023986816
+Epoch [105/200]	 Step [0/33]	 Loss: 4.8932	 Bio Loss: 0.9331
+Epoch [105/200] Loss: 168.30895137786865
+Epoch [106/200]	 Step [0/33]	 Loss: 5.5216	 Bio Loss: 0.9486
+Epoch [106/200] Loss: 168.6230766773224
+Epoch [107/200]	 Step [0/33]	 Loss: 5.0839	 Bio Loss: 0.8874
+Epoch [107/200] Loss: 166.8656084537506
+Epoch [108/200]	 Step [0/33]	 Loss: 5.0846	 Bio Loss: 0.9025
+Epoch [108/200] Loss: 168.38146448135376
+Epoch [109/200]	 Step [0/33]	 Loss: 5.1370	 Bio Loss: 0.9561
+Epoch [109/200] Loss: 167.88531136512756
+Epoch [110/200]	 Step [0/33]	 Loss: 4.9226	 Bio Loss: 1.0223
+Epoch [110/200] Loss: 166.96754217147827
+Epoch [111/200]	 Step [0/33]	 Loss: 4.9551	 Bio Loss: 1.0125
+Epoch [111/200] Loss: 166.48189163208008
+Epoch [112/200]	 Step [0/33]	 Loss: 5.4219	 Bio Loss: 0.9169
+Epoch [112/200] Loss: 167.8654408454895
+Epoch [113/200]	 Step [0/33]	 Loss: 4.9821	 Bio Loss: 0.9159
+Epoch [113/200] Loss: 171.27656364440918
+Epoch [114/200]	 Step [0/33]	 Loss: 5.0724	 Bio Loss: 0.9198
+Epoch [114/200] Loss: 167.22606992721558
+Epoch [115/200]	 Step [0/33]	 Loss: 5.2016	 Bio Loss: 1.0367
+Epoch [115/200] Loss: 168.61317682266235
+Epoch [116/200]	 Step [0/33]	 Loss: 5.1259	 Bio Loss: 1.0124
+Epoch [116/200] Loss: 168.42165660858154
+Epoch [117/200]	 Step [0/33]	 Loss: 5.0269	 Bio Loss: 0.8974
+Epoch [117/200] Loss: 166.2827126979828
+Epoch [118/200]	 Step [0/33]	 Loss: 5.3470	 Bio Loss: 0.9273
+Epoch [118/200] Loss: 167.56299257278442
+Epoch [119/200]	 Step [0/33]	 Loss: 5.0061	 Bio Loss: 1.0120
+Epoch [119/200] Loss: 167.5690393447876
+Epoch [120/200]	 Step [0/33]	 Loss: 5.4535	 Bio Loss: 1.0436
+Epoch [120/200] Loss: 167.08405780792236
+Epoch [121/200]	 Step [0/33]	 Loss: 4.9102	 Bio Loss: 1.0609
+Epoch [121/200] Loss: 167.14000821113586
+Epoch [122/200]	 Step [0/33]	 Loss: 5.1407	 Bio Loss: 0.9061
+Epoch [122/200] Loss: 168.23217487335205
+Epoch [123/200]	 Step [0/33]	 Loss: 5.0172	 Bio Loss: 0.9228
+Epoch [123/200] Loss: 167.5845022201538
+Epoch [124/200]	 Step [0/33]	 Loss: 5.2110	 Bio Loss: 0.9921
+Epoch [124/200] Loss: 167.32134699821472
+Epoch [125/200]	 Step [0/33]	 Loss: 5.2728	 Bio Loss: 0.9499
+Epoch [125/200] Loss: 168.71941375732422
+Epoch [126/200]	 Step [0/33]	 Loss: 5.2740	 Bio Loss: 0.8866
+Epoch [126/200] Loss: 167.2339208126068
+Epoch [127/200]	 Step [0/33]	 Loss: 4.8710	 Bio Loss: 0.8453
+Epoch [127/200] Loss: 166.7702498435974
+Epoch [128/200]	 Step [0/33]	 Loss: 5.1979	 Bio Loss: 0.9090
+Epoch [128/200] Loss: 166.1999499797821
+Epoch [129/200]	 Step [0/33]	 Loss: 5.1722	 Bio Loss: 0.8763
+Epoch [129/200] Loss: 169.3673496246338
+Epoch [130/200]	 Step [0/33]	 Loss: 4.8343	 Bio Loss: 0.8880
+Epoch [130/200] Loss: 168.51206278800964
+Epoch [131/200]	 Step [0/33]	 Loss: 5.1397	 Bio Loss: 1.0150
+Epoch [131/200] Loss: 167.21567153930664
+Epoch [132/200]	 Step [0/33]	 Loss: 4.8604	 Bio Loss: 1.0081
+Epoch [132/200] Loss: 167.6663408279419
+Epoch [133/200]	 Step [0/33]	 Loss: 4.9389	 Bio Loss: 0.8685
+Epoch [133/200] Loss: 168.2575478553772
+Epoch [134/200]	 Step [0/33]	 Loss: 5.0620	 Bio Loss: 0.9872
+Epoch [134/200] Loss: 166.37978148460388
+Epoch [135/200]	 Step [0/33]	 Loss: 5.0586	 Bio Loss: 0.8753
+Epoch [135/200] Loss: 166.24305415153503
+Epoch [136/200]	 Step [0/33]	 Loss: 5.1766	 Bio Loss: 0.9523
+Epoch [136/200] Loss: 167.4176836013794
+Epoch [137/200]	 Step [0/33]	 Loss: 4.8313	 Bio Loss: 0.8272
+Epoch [137/200] Loss: 167.69495010375977
+Epoch [138/200]	 Step [0/33]	 Loss: 5.0895	 Bio Loss: 0.9745
+Epoch [138/200] Loss: 165.52239894866943
+Epoch [139/200]	 Step [0/33]	 Loss: 5.5077	 Bio Loss: 0.8993
+Epoch [139/200] Loss: 165.6336452960968
+Epoch [140/200]	 Step [0/33]	 Loss: 5.2258	 Bio Loss: 0.8361
+Epoch [140/200] Loss: 166.7118375301361
+Epoch [141/200]	 Step [0/33]	 Loss: 5.2750	 Bio Loss: 0.9788
+Epoch [141/200] Loss: 167.17146348953247
+Epoch [142/200]	 Step [0/33]	 Loss: 5.2404	 Bio Loss: 0.8813
+Epoch [142/200] Loss: 167.58104372024536
+Epoch [143/200]	 Step [0/33]	 Loss: 5.0261	 Bio Loss: 0.8975
+Epoch [143/200] Loss: 168.42243766784668
+Epoch [144/200]	 Step [0/33]	 Loss: 5.3885	 Bio Loss: 0.8883
+Epoch [144/200] Loss: 166.66874980926514
+Epoch [145/200]	 Step [0/33]	 Loss: 5.0140	 Bio Loss: 0.9197
+Epoch [145/200] Loss: 166.9052426815033
+Epoch [146/200]	 Step [0/33]	 Loss: 4.9685	 Bio Loss: 0.9056
+Epoch [146/200] Loss: 167.37105321884155
+Epoch [147/200]	 Step [0/33]	 Loss: 5.2600	 Bio Loss: 0.8731
+Epoch [147/200] Loss: 165.86359214782715
+Epoch [148/200]	 Step [0/33]	 Loss: 5.3691	 Bio Loss: 0.9371
+Epoch [148/200] Loss: 168.10244131088257
+Epoch [149/200]	 Step [0/33]	 Loss: 5.2736	 Bio Loss: 1.0044
+Epoch [149/200] Loss: 167.63833832740784
+Epoch [150/200]	 Step [0/33]	 Loss: 4.7759	 Bio Loss: 0.9650
+Epoch [150/200] Loss: 167.0363392829895
+Epoch [151/200]	 Step [0/33]	 Loss: 4.7044	 Bio Loss: 0.8657
+Epoch [151/200] Loss: 166.7932891845703
+Epoch [152/200]	 Step [0/33]	 Loss: 4.6873	 Bio Loss: 0.8867
+Epoch [152/200] Loss: 165.41049599647522
+Epoch [153/200]	 Step [0/33]	 Loss: 5.2041	 Bio Loss: 1.0938
+Epoch [153/200] Loss: 167.31234407424927
+Epoch [154/200]	 Step [0/33]	 Loss: 5.1246	 Bio Loss: 0.9162
+Epoch [154/200] Loss: 165.06216406822205
+Epoch [155/200]	 Step [0/33]	 Loss: 4.8473	 Bio Loss: 0.9843
+Epoch [155/200] Loss: 164.98912143707275
+Epoch [156/200]	 Step [0/33]	 Loss: 4.9078	 Bio Loss: 0.9278
+Epoch [156/200] Loss: 165.45166969299316
+Epoch [157/200]	 Step [0/33]	 Loss: 5.0152	 Bio Loss: 0.8251
+Epoch [157/200] Loss: 164.47470045089722
+Epoch [158/200]	 Step [0/33]	 Loss: 4.7211	 Bio Loss: 0.9315
+Epoch [158/200] Loss: 165.1366090774536
+Epoch [159/200]	 Step [0/33]	 Loss: 5.0809	 Bio Loss: 0.9301
+Epoch [159/200] Loss: 166.84242963790894
+Epoch [160/200]	 Step [0/33]	 Loss: 4.7911	 Bio Loss: 0.9890
+Epoch [160/200] Loss: 166.02960395812988
+Epoch [161/200]	 Step [0/33]	 Loss: 5.4568	 Bio Loss: 0.9004
+Epoch [161/200] Loss: 164.11714124679565
+Epoch [162/200]	 Step [0/33]	 Loss: 4.9954	 Bio Loss: 0.9000
+Epoch [162/200] Loss: 166.519953250885
+Epoch [163/200]	 Step [0/33]	 Loss: 4.7904	 Bio Loss: 0.9944
+Epoch [163/200] Loss: 165.23412919044495
+Epoch [164/200]	 Step [0/33]	 Loss: 4.9954	 Bio Loss: 0.9075
+Epoch [164/200] Loss: 168.41965913772583
+Epoch [165/200]	 Step [0/33]	 Loss: 4.7243	 Bio Loss: 0.9597
+Epoch [165/200] Loss: 166.7696671485901
+Epoch [166/200]	 Step [0/33]	 Loss: 4.9090	 Bio Loss: 0.7528
+Epoch [166/200] Loss: 166.80007696151733
+Epoch [167/200]	 Step [0/33]	 Loss: 5.2495	 Bio Loss: 0.8064
+Epoch [167/200] Loss: 166.76104855537415
+Epoch [168/200]	 Step [0/33]	 Loss: 5.3308	 Bio Loss: 0.9500
+Epoch [168/200] Loss: 164.6278612613678
+Epoch [169/200]	 Step [0/33]	 Loss: 5.1070	 Bio Loss: 0.9292
+Epoch [169/200] Loss: 165.62508964538574
+Epoch [170/200]	 Step [0/33]	 Loss: 5.2820	 Bio Loss: 0.9194
+Epoch [170/200] Loss: 167.09110021591187
+Epoch [171/200]	 Step [0/33]	 Loss: 5.0188	 Bio Loss: 0.8507
+Epoch [171/200] Loss: 166.13372898101807
+Epoch [172/200]	 Step [0/33]	 Loss: 5.2341	 Bio Loss: 0.8666
+Epoch [172/200] Loss: 167.74700689315796
+Epoch [173/200]	 Step [0/33]	 Loss: 5.3637	 Bio Loss: 0.9105
+Epoch [173/200] Loss: 165.82296228408813
+Epoch [174/200]	 Step [0/33]	 Loss: 4.8164	 Bio Loss: 0.8407
+Epoch [174/200] Loss: 163.70098161697388
+Epoch [175/200]	 Step [0/33]	 Loss: 4.9969	 Bio Loss: 0.8053
+Epoch [175/200] Loss: 165.03031015396118
+Epoch [176/200]	 Step [0/33]	 Loss: 5.2511	 Bio Loss: 0.8494
+Epoch [176/200] Loss: 167.66356706619263
+Epoch [177/200]	 Step [0/33]	 Loss: 5.3228	 Bio Loss: 0.8845
+Epoch [177/200] Loss: 165.93416357040405
+Epoch [178/200]	 Step [0/33]	 Loss: 5.2902	 Bio Loss: 0.8936
+Epoch [178/200] Loss: 165.19559526443481
+Epoch [179/200]	 Step [0/33]	 Loss: 5.2809	 Bio Loss: 0.8724
+Epoch [179/200] Loss: 166.00925159454346
+Epoch [180/200]	 Step [0/33]	 Loss: 4.9581	 Bio Loss: 0.8628
+Epoch [180/200] Loss: 166.98523664474487
+Epoch [181/200]	 Step [0/33]	 Loss: 5.0633	 Bio Loss: 0.9703
+Epoch [181/200] Loss: 164.18478417396545
+Epoch [182/200]	 Step [0/33]	 Loss: 4.9366	 Bio Loss: 1.0237
+Epoch [182/200] Loss: 167.2786946296692
+Epoch [183/200]	 Step [0/33]	 Loss: 5.0258	 Bio Loss: 0.8209
+Epoch [183/200] Loss: 166.86576080322266
+Epoch [184/200]	 Step [0/33]	 Loss: 4.9442	 Bio Loss: 1.0703
+Epoch [184/200] Loss: 168.73074579238892
+Epoch [185/200]	 Step [0/33]	 Loss: 5.3319	 Bio Loss: 0.9480
+Epoch [185/200] Loss: 166.7577085494995
+Epoch [186/200]	 Step [0/33]	 Loss: 5.0453	 Bio Loss: 0.8411
+Epoch [186/200] Loss: 164.0484595298767
+Epoch [187/200]	 Step [0/33]	 Loss: 5.0483	 Bio Loss: 1.0462
+Epoch [187/200] Loss: 165.12365341186523
+Epoch [188/200]	 Step [0/33]	 Loss: 5.0513	 Bio Loss: 0.9870
+Epoch [188/200] Loss: 165.15754222869873
+Epoch [189/200]	 Step [0/33]	 Loss: 5.0055	 Bio Loss: 0.9652
+Epoch [189/200] Loss: 164.96391201019287
+Epoch [190/200]	 Step [0/33]	 Loss: 4.9992	 Bio Loss: 1.0386
+Epoch [190/200] Loss: 164.6009340286255
+Epoch [191/200]	 Step [0/33]	 Loss: 5.0788	 Bio Loss: 0.9481
+Epoch [191/200] Loss: 166.53023147583008
+Epoch [192/200]	 Step [0/33]	 Loss: 4.9659	 Bio Loss: 0.9346
+Epoch [192/200] Loss: 163.98827505111694
+Epoch [193/200]	 Step [0/33]	 Loss: 4.7381	 Bio Loss: 0.9768
+Epoch [193/200] Loss: 163.82019448280334
+Epoch [194/200]	 Step [0/33]	 Loss: 5.0620	 Bio Loss: 0.9774
+Epoch [194/200] Loss: 166.2027769088745
+Epoch [195/200]	 Step [0/33]	 Loss: 4.9900	 Bio Loss: 0.9024
+Epoch [195/200] Loss: 163.1381392478943
+Epoch [196/200]	 Step [0/33]	 Loss: 4.9096	 Bio Loss: 1.0095
+Epoch [196/200] Loss: 165.61574029922485
+Epoch [197/200]	 Step [0/33]	 Loss: 5.1739	 Bio Loss: 0.9091
+Epoch [197/200] Loss: 165.4601502418518
+Epoch [198/200]	 Step [0/33]	 Loss: 5.0027	 Bio Loss: 0.9688
+Epoch [198/200] Loss: 165.0917911529541
+Epoch [199/200]	 Step [0/33]	 Loss: 5.0294	 Bio Loss: 0.9479
+Epoch [199/200] Loss: 163.7137701511383
+range(0, 200)
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_bioanchor_lambda0.1/checkpoint_190.tar...
+✅ Model loaded successfully
+
+📊 Loading data for BRCA...
+Loaded bio-anchors: torch.Size([1031, 15])
+✅ Data loaded successfully
+
+🔮 Getting predictions...
+✅ Predictions obtained: 1031 samples
+
+🔍 Filtering to patients with ground truth...
+   Patients with both predictions and ground truth: 803
+   Final evaluation size: 803 patients
+
+📈 Computing metrics...
+
+============================================================
+RESULTS
+============================================================
+ARI                 : 0.3231
+NMI                 : 0.4585
+V-measure           : 0.4585
+============================================================
+
+📊 Creating visualizations...
+Saved confusion matrix to results/BRCA_confusion_matrix.png
+Saved distribution plot to results/BRCA_cluster_distribution.png
+Computing t-SNE (this may take a minute)...
+Saved t-SNE plot to results/BRCA_tsne.png
+
+💾 Saved results to results/BRCA_evaluation.csv
+
+✅ Evaluation complete!
+=== Completed lambda=0.1 ===
+Tue Feb 10 17:30:53 EST 2026

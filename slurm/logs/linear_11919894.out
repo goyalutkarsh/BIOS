@@ -1,0 +1,14 @@
+=== Bio-Anchor Head: linear ===
+Job started at: Mon Apr 20 00:30:19 EDT 2026
+Running on node: hpc-i33-1-4.local
+Job ID: 11919894
+Training completed at: Mon Apr 20 00:30:19 EDT 2026
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from data/ground_truth/ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_bioanchor_linear_14dim_200ep/checkpoint_200.tar...
+=== linear complete ===
+Job finished at: Mon Apr 20 00:30:56 EDT 2026

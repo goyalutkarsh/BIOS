@@ -1,0 +1,125 @@
+Job started at: Thu Feb  5 14:19:37 EST 2026
+Running on node: hpc-m36-6-11.local
+Job ID: 11621777
+Loaded bio-anchors: torch.Size([1031, 16])
+5
+Epoch [0/50]	 Step [0/33]	 Loss: 6.3261
+Epoch [0/50] Loss: 207.0779948234558
+Epoch [1/50]	 Step [0/33]	 Loss: 6.3243
+Epoch [1/50] Loss: 206.9168553352356
+Epoch [2/50]	 Step [0/33]	 Loss: 6.3253
+Epoch [2/50] Loss: 207.08916330337524
+Epoch [3/50]	 Step [0/33]	 Loss: 6.3244
+Epoch [3/50] Loss: 207.06513452529907
+Epoch [4/50]	 Step [0/33]	 Loss: 6.3243
+Epoch [4/50] Loss: 207.05834579467773
+Epoch [5/50]	 Step [0/33]	 Loss: 6.3233
+Epoch [5/50] Loss: 205.6774196624756
+Epoch [6/50]	 Step [0/33]	 Loss: 6.2784
+Epoch [6/50] Loss: 200.73466873168945
+Epoch [7/50]	 Step [0/33]	 Loss: 6.2235
+Epoch [7/50] Loss: 199.55239725112915
+Epoch [8/50]	 Step [0/33]	 Loss: 5.8355
+Epoch [8/50] Loss: 196.17482566833496
+Epoch [9/50]	 Step [0/33]	 Loss: 6.3420
+Epoch [9/50] Loss: 194.18196082115173
+Epoch [10/50]	 Step [0/33]	 Loss: 5.6479
+Epoch [10/50] Loss: 193.19038677215576
+Epoch [11/50]	 Step [0/33]	 Loss: 5.7731
+Epoch [11/50] Loss: 192.88646173477173
+Epoch [12/50]	 Step [0/33]	 Loss: 6.2486
+Epoch [12/50] Loss: 192.95674180984497
+Epoch [13/50]	 Step [0/33]	 Loss: 5.9599
+Epoch [13/50] Loss: 187.7947392463684
+Epoch [14/50]	 Step [0/33]	 Loss: 5.9179
+Epoch [14/50] Loss: 187.92698621749878
+Epoch [15/50]	 Step [0/33]	 Loss: 5.5698
+Epoch [15/50] Loss: 186.72054815292358
+Epoch [16/50]	 Step [0/33]	 Loss: 5.7999
+Epoch [16/50] Loss: 187.22941493988037
+Epoch [17/50]	 Step [0/33]	 Loss: 5.6174
+Epoch [17/50] Loss: 185.17173671722412
+Epoch [18/50]	 Step [0/33]	 Loss: 5.7234
+Epoch [18/50] Loss: 184.84927320480347
+Epoch [19/50]	 Step [0/33]	 Loss: 5.8079
+Epoch [19/50] Loss: 183.13185596466064
+Epoch [20/50]	 Step [0/33]	 Loss: 5.6091
+Epoch [20/50] Loss: 187.26192140579224
+Epoch [21/50]	 Step [0/33]	 Loss: 5.5654
+Epoch [21/50] Loss: 185.03530550003052
+Epoch [22/50]	 Step [0/33]	 Loss: 5.8793
+Epoch [22/50] Loss: 185.1546597480774
+Epoch [23/50]	 Step [0/33]	 Loss: 5.5284
+Epoch [23/50] Loss: 182.64786767959595
+Epoch [24/50]	 Step [0/33]	 Loss: 5.4895
+Epoch [24/50] Loss: 180.31558847427368
+Epoch [25/50]	 Step [0/33]	 Loss: 5.6386
+Epoch [25/50] Loss: 182.2677059173584
+Epoch [26/50]	 Step [0/33]	 Loss: 5.3477
+Epoch [26/50] Loss: 180.5176248550415
+Epoch [27/50]	 Step [0/33]	 Loss: 5.7716
+Epoch [27/50] Loss: 181.0429768562317
+Epoch [28/50]	 Step [0/33]	 Loss: 5.5388
+Epoch [28/50] Loss: 181.03960943222046
+Epoch [29/50]	 Step [0/33]	 Loss: 5.5644
+Epoch [29/50] Loss: 180.12141609191895
+Epoch [30/50]	 Step [0/33]	 Loss: 5.9311
+Epoch [30/50] Loss: 179.69846487045288
+Epoch [31/50]	 Step [0/33]	 Loss: 5.4254
+Epoch [31/50] Loss: 180.91305661201477
+Epoch [32/50]	 Step [0/33]	 Loss: 5.3026
+Epoch [32/50] Loss: 179.95822191238403
+Epoch [33/50]	 Step [0/33]	 Loss: 5.6381
+Epoch [33/50] Loss: 179.64252424240112
+Epoch [34/50]	 Step [0/33]	 Loss: 5.0792
+Epoch [34/50] Loss: 179.02330946922302
+Epoch [35/50]	 Step [0/33]	 Loss: 5.4533
+Epoch [35/50] Loss: 177.65068531036377
+Epoch [36/50]	 Step [0/33]	 Loss: 5.5314
+Epoch [36/50] Loss: 177.10014724731445
+Epoch [37/50]	 Step [0/33]	 Loss: 5.4218
+Epoch [37/50] Loss: 178.6556315422058
+Epoch [38/50]	 Step [0/33]	 Loss: 5.2166
+Epoch [38/50] Loss: 178.39277601242065
+Epoch [39/50]	 Step [0/33]	 Loss: 5.3564
+Epoch [39/50] Loss: 179.17290830612183
+Epoch [40/50]	 Step [0/33]	 Loss: 5.3876
+Epoch [40/50] Loss: 179.52309274673462
+Epoch [41/50]	 Step [0/33]	 Loss: 5.7268
+Epoch [41/50] Loss: 176.6184368133545
+Epoch [42/50]	 Step [0/33]	 Loss: 5.2978
+Epoch [42/50] Loss: 176.76797103881836
+Epoch [43/50]	 Step [0/33]	 Loss: 5.4628
+Epoch [43/50] Loss: 175.83397912979126
+Epoch [44/50]	 Step [0/33]	 Loss: 5.1505
+Epoch [44/50] Loss: 177.11199045181274
+Epoch [45/50]	 Step [0/33]	 Loss: 5.5951
+Epoch [45/50] Loss: 176.77220487594604
+Epoch [46/50]	 Step [0/33]	 Loss: 5.4204
+Epoch [46/50] Loss: 177.5711374282837
+Epoch [47/50]	 Step [0/33]	 Loss: 5.4678
+Epoch [47/50] Loss: 176.0559458732605
+Epoch [48/50]	 Step [0/33]	 Loss: 5.2637
+Epoch [48/50] Loss: 177.62234497070312
+Epoch [49/50]	 Step [0/33]	 Loss: 5.4905
+Epoch [49/50] Loss: 176.69868898391724
+range(0, 50)
+Training completed at: Thu Feb  5 14:26:22 EST 2026
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_baseline/checkpoint_0.tar...
+✅ Model loaded successfully
+
+📊 Loading data for BRCA...
+Loaded bio-anchors: torch.Size([1031, 16])
+✅ Data loaded successfully
+
+🔮 Getting predictions...
+✅ Predictions obtained: 1031 samples
+
+🔍 Filtering to patients with ground truth...
+Job finished at: Thu Feb  5 14:26:33 EST 2026

@@ -1,0 +1,93 @@
+==============================
+Running: 3plus_cellcycle | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_cellcycle_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_cellcycle_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_cellcycle RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_cellcycle_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_cellcycle_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_cellcycle RESULTS ---
+==============================
+Running: 3plus_apoptosis | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_apoptosis_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_apoptosis_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_apoptosis RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_apoptosis_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_apoptosis_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_apoptosis RESULTS ---
+==============================
+Running: 3plus_angio | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_angio_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_angio_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_angio RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_angio_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_angio_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_angio RESULTS ---
+==============================
+Running: 3plus_dna_repair | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_dna_repair_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_dna_repair_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_dna_repair RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_dna_repair_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_dna_repair_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_dna_repair RESULTS ---
+==============================
+Running: 3plus_TMB | dim=4
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_TMB_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_TMB_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- MLP 3plus_TMB RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 4 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_3plus_TMB_score.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_3plus_TMB_score.csv: torch.Size([1031, 4])
+Cluster number: None
+--- Linear 3plus_TMB RESULTS ---
+==============================
+Running: 14all | dim=14
+==============================
+MLP Bio-Anchor Head (bio_dim -> 64 -> bio_dim)
+Cancer: BRCA | bio_dim: 14 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_14all.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_14all.csv: torch.Size([1031, 14])
+Cluster number: None
+--- MLP 14all RESULTS ---
+Linear Bio-Anchor Head
+Cancer: BRCA | bio_dim: 14 | lambda_bio: 0.1
+Bio anchor file: bio_anchors_BRCA_combo_14all.csv
+[dataloader] Loaded bio-anchors from bio_anchors_BRCA_combo_14all.csv: torch.Size([1031, 14])
+Cluster number: None
+--- Linear 14all RESULTS ---
+==============================
+SWEEP 2 COMPLETE
+==============================

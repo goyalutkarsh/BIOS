@@ -1,0 +1,7 @@
+/gpfs/home/ug25b/.conda/envs/bios/bin/python: can't open file 'train_bioanchor.py': [Errno 2] No such file or directory
+ls: cannot access 'save/model_bioanchor_linear_14dim_200ep/checkpoint_*.tar': No such file or directory
+/gpfs/home/ug25b/.conda/envs/bios/bin/python: can't open file 'scripts/evaluate/evaluate_clustering.py': [Errno 2] No such file or directory
+mv: cannot stat 'results/BRCA_evaluation.csv': No such file or directory
+mv: cannot stat 'results/BRCA_confusion_matrix.png': No such file or directory
+mv: cannot stat 'results/BRCA_cluster_distribution.png': No such file or directory
+mv: cannot stat 'results/BRCA_tsne.png': No such file or directory

@@ -1,0 +1,224 @@
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 83, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 83, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 83, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 83, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 83, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 83, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_mlp.py", line 103, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument
+Traceback (most recent call last):
+  File "train_bioanchor_linear.py", line 83, in <module>
+    model = network.Network(ae, args.feature_dim, cluster_number)
+  File "/gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC/modules/network.py", line 21, in __init__
+    nn.Linear(self.ae.rep_dim, self.cluster_num),
+  File "/gpfs/home/ug25b/.conda/envs/bios/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 99, in __init__
+    self.weight = Parameter(torch.empty((out_features, in_features), **factory_kwargs))
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+ * (tuple of ints size, *, torch.memory_format memory_format = None, Tensor out = None, torch.dtype dtype = None, torch.layout layout = None, torch.device device = None, bool pin_memory = False, bool requires_grad = False)
+
+usage: evaluate_clustering.py [-h] [--cancer_type CANCER_TYPE]
+                              [--model_path MODEL_PATH]
+                              [--feature_dim FEATURE_DIM]
+                              [--batch_size BATCH_SIZE]
+evaluate_clustering.py: error: argument --model_path: expected one argument

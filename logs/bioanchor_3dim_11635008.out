@@ -1,0 +1,14 @@
+=== Training Bio-Anchor 3D (No Placeholders) ===
+Wed Feb 11 00:11:38 EST 2026
+Using 3D bio-anchors (3 real, no placeholders)
+Loaded bio-anchors: torch.Size([1031, 3])
+5
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_bioanchor_3dim/checkpoint_190.tar...
+=== Completed 3D Training ===
+Wed Feb 11 00:11:51 EST 2026

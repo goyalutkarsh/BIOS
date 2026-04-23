@@ -1,0 +1,6 @@
+/var/spool/slurmd/job11921679/slurm_script: line 32: 2912931 Floating point exception(core dumped) $PYBIN scripts/train/train_bioanchor_linear_OLD.py --cancer_type BRCA --batch_size 64 --cluster_number 5 --epochs 200 --lambda_bio 0.1 --bio_dim 4 --bio_anchor_file data/bio_anchors/bio_anchors_BRCA_combo_3plus_apoptosis_score.csv --model_path save/model_repro_linear_old
+/var/spool/slurmd/job11921679/slurm_script: line 40: 2913886 Floating point exception(core dumped) $PYBIN scripts/evaluate/evaluate_clustering.py --cluster_number 5 --cancer_type BRCA --model_path $LAST_CHECKPOINT
+mv: cannot stat 'results/BRCA_evaluation.csv': No such file or directory
+mv: cannot stat 'results/BRCA_confusion_matrix.png': No such file or directory
+mv: cannot stat 'results/BRCA_cluster_distribution.png': No such file or directory
+mv: cannot stat 'results/BRCA_tsne.png': No such file or directory
