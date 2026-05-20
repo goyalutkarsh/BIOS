@@ -51,6 +51,8 @@ import argparse
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 from torch import optim
+from sklearn.metrics import v_measure_score
+import pandas as pd
 
 from modules import network, contrastive_loss
 from modules.ae import AE
@@ -243,6 +245,8 @@ if __name__ == "__main__":
 
     # ── training loop ───────────────────────────────────────────
     loss_epoch_list = []
+    best_v = 0.0
+    best_epoch = 0
 
     for epoch in range(args.start_epoch, args.epochs):
         model.train()
@@ -305,6 +309,39 @@ if __name__ == "__main__":
 
         if epoch % 10 == 0:
             save_model(args, model, optimizer, epoch)
+
+        # evaluate and track best checkpoint
+        model.eval()
+        all_preds, all_labels = [], []
+        for step, batch_data in enumerate(DL):
+            x = batch_data[0].float().to(device)
+            with torch.no_grad():
+                c, h, z_bio = model.forward_cluster(x)
+            all_preds.extend(c.cpu().numpy())
+
+        # load ground truth
+        gt_path = f'data/ground_truth/ground_truth_BRCA.csv'
+        if os.path.exists(gt_path):
+            gt = pd.read_csv(gt_path)
+            preds = np.array(all_preds)
+            labels = gt.iloc[:, 1].values
+            if len(preds) == len(labels):
+                v = v_measure_score(labels, preds)
+                if v > best_v:
+                    best_v = v
+                    best_epoch = epoch
+                    torch.save({
+                        'net':       model.state_dict(),
+                        'optimizer': optimizer.state_dict(),
+                        'epoch':     epoch,
+                        'head_type': args.head_type,
+                        'bio_dim':   args.bio_dim,
+                        'v_measure': v,
+                    }, os.path.join(args.model_path, 'best_checkpoint.tar'))
+                    print(f"  *** New best V={v:.4f} at epoch {epoch} — saved best_checkpoint.tar")
+                else:
+                    print(f"  V={v:.4f} (best={best_v:.4f} @ ep {best_epoch})")
+        model.train()
 
     # print loss at key epochs — adapts to any epoch count automatically
     n_epochs = len(loss_epoch_list)

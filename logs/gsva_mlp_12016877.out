@@ -1,0 +1,27 @@
+=== Bio-Anchor Head: mlp | GSVA M8 anchors ===
+Job started at: Mon May 11 23:37:56 EDT 2026
+Running on node: hpc-m35-5-12.local
+Job ID: 12016877
+Python: /gpfs/home/ug25b/.conda/envs/bios/bin/python
+PWD: /gpfs/research/fangroup/ug25b/BIOS/Subtype-DCC
+data/bio_anchors/bio_anchors_BRCA_gsva_M8.csv
+Head type    : mlp
+Cancer       : BRCA | bio_dim: 8 | lambda_bio: 0.1
+Bio anchor   : data/bio_anchors/bio_anchors_BRCA_gsva_M8.csv
+Cluster num  : 5
+Epochs       : 600
+[dataloader] Loaded bio-anchors from data/bio_anchors/bio_anchors_BRCA_gsva_M8.csv: torch.Size([1031, 8])
+Device       : cpu
+Model params : 73,948,013
+Epoch [0/600] Step [0/17] Loss: 7.1207 Bio: 0.8582
+Epoch [0/600] Total Loss: 118.8369
+Training completed at: Mon May 11 23:38:17 EDT 2026
+============================================================
+CLUSTERING EVALUATION
+============================================================
+✅ Loaded ground truth from data/ground_truth/ground_truth_BRCA.csv
+   Total patients with labels: 803
+
+📂 Loading model from save/model_bioanchor_gsva_linear_M8/best_checkpoint.tar...
+=== gsva_mlp_M8 complete ===
+Job finished at: Mon May 11 23:38:23 EDT 2026
